@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>MOAA Style - pedidos</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="../../img/moaaxd.jpg" type="image/png" width="5px">
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/estilos.css">
+    <link rel="stylesheet" href="../../css/sidebar.css">
+</head>
+
+<body class="fondo2">
+    <center>
+        <div class="fondo">
+            <a class="navbar-brand" href="#">
+                <img src="../../img/logomoaa2.png" class="img-fluid" alt="..." width="250px">
+            </a>
+        </div>
+        <!-- menu -->
+    </center>
+    <div class="cabecera">
+    </div>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../web/index.html">
+                <img src="../../img/moaa.1.png" class="animacion" alt="" width="100" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../web/pedidos.html">Pedido</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../web/catalogo.html">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../web/index.html">Salir</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- pedido -->
+    <center>
+        <div class="container">
+            <br>
+            <div class="row login">
+                <div class="col-md-5">
+                    <img src="../../img/t-shirt/t-shirt12.png" alt="" width="350" height="330px">
+                    </div>
+            <div class="col-md-5">
+                    <div class="card pedido">
+                        <div class="card-body dash">
+                            <div>
+                                <h2>Orden</h2>
+                            </div>
+                            <hr>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Producto:</label>
+                                <select name="producto">
+                                    <option value="jean">joggers</option>
+                                    <option value="The shirt">the shirt</option>
+                                    <option value="hoodies">hoodies</option>
+                                    <option value="accesorios">accesorios</option>
+                                    <option value="jordan" selected>jordan</option>
+                                    <option value="converse">converse</option>
+                                    <option value="vans">vans</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Cantidad:</label>
+                                <select name="cantidad">
+                                    <option value="1">1</option>
+                                    <option value="2" selected>2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5" selected>5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8" selected>8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+    
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label">Tallas:</label>
+                                <select name="marca">
+                                    <option value="l">L</option>
+                                    <option value="Esika" selected>M</option>
+                                    <option value="s">S</option>
+                                    <option value="m">M</option>
+                                    <option value="x">X</option>
+                                    <option value="xl">XL</option>
+                                    <option value="xxl">XXL</option>
+                                </select>
+                            </div>
+    
+    
+                            <div class="mb-3">
+                                <input type="submit" value="Comprar" class="btn btn-primary" id="pedido" onclick="pedido() ">
+                                <p><a href="../usuarios/dashboard.html">Cancelar</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </head>
+    
+            </div>
+        </div>
+    </center>
+    <!-- pie de pagina -->
+    <br>
+    <center>
+        <footer class="fondopiepag">
+            <div class="row colorletra">
+                <div class="col-sm-4">
+                    <div>
+                        <div>
+                            <p class="fuente">SERVICIO AL CLIENTE:</p>
+                            <p><em>02 347 2222</em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 ">
+                    <div>
+                        <div>
+                            <p class="fuente">EMAIL:</p>
+                            <p><em>servicio.cliente@moaastyle.com</em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p class="fuente">CONSULTA TU PEDIDO:</p>
+                    <p><em>0984085112</em></p>
+                </div>
+            </div>
+        </footer>
+    </center>
+
+    <!-- marca de agua -->
+    <div class="fondopiepag">
+        <center>
+            <hr size="5px" color="black">
+            <p class="silver-text">M.O.A.A STYLE</p>
+            <br>
+        </center>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+        <script src="../../JS/pedido.js"></script>
+</body>
+
+</html>
